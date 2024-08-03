@@ -20,7 +20,7 @@ jobs:
 
      - name: Terraform init
       id: init
-      run: terraform init -backendd=false
+      run: terraform init -backend=false
 
     - name: Terraform fmt
       id: fmt
